@@ -1,0 +1,38 @@
+#inputInfo{
+  color:black;
+}
+#text{
+  color: grey;
+}
+#title{
+  color: white;
+}
+.container-fluid{
+    display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 25% 50% 25%;
+}
+body{
+  background-color: black;
+}
+p{
+  color: grey;
+}
+#inputUserName{
+  border-radius: 10px;
+}
+#inputUserName-label{
+  color:lightgreen;
+}
+#inputPlaylistName-label{
+  color:lightgreen;
+}
+#inputPlaylistName{
+  border-radius: 10px;
+}
+.col-sm-8{
+  grid-column: 2;
+  width: 100%;
+  grid-row: 2 / 3;
+  height: 100%;
+}
